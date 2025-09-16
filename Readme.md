@@ -64,3 +64,66 @@
 2. **Make it executable:**
    ```bash 
    chmod +x oag-linux-customization-complete.sh
+
+3. **Run with sudo:**
+   ```bash
+   sudo ./oag-linux-customization-complete.sh
+   
+4. **Select your installation profile:**
+   ```bash
+   sudo /usr/local/share/oag-profiles/select-profile.sh
+
+##📋 System Requirements
+      | Component     | Minimum   | Recommended            |
+      | ------------- | --------- | ---------------------- |
+      | **RAM**       | 2 GB      | 4 GB+                  |
+      | **Storage**   | 25 GB     | 50 GB+                 |
+      | **Processor** | Dual-core | Quad-core+             |
+      | **Graphics**  | Any       | Dedicated GPU (Gaming) |
+
+##🏗️ Project Structure
+   OAG-Linux/
+├── iso/
+│   └── ubuntu-22.04.5-desktop-amd64.iso
+├── build/
+│   └── [Cubic project files]
+├── scripts/
+│   ├── oag-linux-customization-complete.sh
+│   └── install-oag-packages.sh
+├── profiles/
+│   ├── education/
+│   ├── professional/
+│   ├── server/
+│   ├── gaming/
+│   └── minimal/
+├── themes/
+│   ├── oag-theme/
+│   └── oag-icons/
+├── config/
+│   ├── oag-release
+│   ├── hostname
+│   └── motd
+└── docs/
+    ├── README.md
+    └── LICENSE
+
+##🔧 Customization Options
+**System Branding**
+
+. Custom release information
+. Distribution details
+. System hostname
+. Welcome messages
+
+**Installation Profiles**
+Each profile includes carefully selected software packages:
+
+##📚 Education Profile
+✅ LibreOffice Suite  
+✅ GeoGebra (Mathematics)  
+✅ GCompris (Educational games)  
+✅ TuxPaint (Drawing)  
+✅ Scratch (Programming)  
+✅ Ardour (Audio editing)  
+✅ Audacity (Audio recording)  
+✅ Calibre (E-book management)  
