@@ -82,6 +82,7 @@
       | **Graphics**  | Any       | Dedicated GPU (Gaming) |
 
 ##🏗️ Project Structure
+```bash
    OAG-Linux/
 ├── iso/
 │   └── ubuntu-22.04.5-desktop-amd64.iso
@@ -119,6 +120,7 @@
 Each profile includes carefully selected software packages:
 
 ##📚 Education Profile
+```bash
 ✅ LibreOffice Suite  
 ✅ GeoGebra (Mathematics)  
 ✅ GCompris (Educational games)  
@@ -127,3 +129,4 @@ Each profile includes carefully selected software packages:
 ✅ Ardour (Audio editing)  
 ✅ Audacity (Audio recording)  
 ✅ Calibre (E-book management)  
+
