@@ -108,6 +108,8 @@
     ├── README.md
     └── LICENSE
 
+
+
 ##🔧 Customization Options
 **System Branding**
 
@@ -129,4 +131,5 @@ Each profile includes carefully selected software packages:
 ✅ Ardour (Audio editing)  
 ✅ Audacity (Audio recording)  
 ✅ Calibre (E-book management)  
+
 
